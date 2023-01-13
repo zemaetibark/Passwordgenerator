@@ -46,13 +46,13 @@ func Voorkeur() string {
 
 	combinatie := strings.Builder{}
 
-	fmt.Println("Wilt u hoofdletters? [y|n] ")
+	fmt.Println("Wilt u hoofdletters? [y of n] ")
 	fmt.Scanln(&Hoofdletters)
 
-	fmt.Println("Wilt u nummers? [y|n] ")
+	fmt.Println("Wilt u nummers? [y of n] ")
 	fmt.Scanln(&Nummers)
 
-	fmt.Println("Wilt u symbolen? [y|n] ")
+	fmt.Println("Wilt u symbolen? [y of n] ")
 	fmt.Scanln(&Symbolen)
 
 	strings.ToLower(Hoofdletters)
