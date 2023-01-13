@@ -17,7 +17,7 @@ func main() {
 	d := gomail.NewDialer("smtp.gmail.com", 587, "applicatieopdracht@gmail.com", "wgftnptcxmownaus")
 
 	d.DialAndSend(m)
-	fmt.Println("mail sent!")
+	fmt.Println("mail gestuurd!")
 
 	// Send the email to Bob, Cora and Dan.
 	if err := d.DialAndSend(m); err != nil {
