@@ -19,7 +19,7 @@ func main() {
 	d.DialAndSend(m)
 	fmt.Println("mail gestuurd!")
 
-	// Send the email to Bob, Cora and Dan.
+	//stuur mail
 	if err := d.DialAndSend(m); err != nil {
 		fmt.Println(err)
 		panic(err)
