@@ -33,7 +33,7 @@ func main() {
 
 		fmt.Println(Password)
 	} else {
-		fmt.Print("Je wachtwoord moet minimaal 8 tekens zijn.")
+		fmt.Print("Je wachtwoord moet minimaal 8 tekens zijn. ")
 	}
 }
 
